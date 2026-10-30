@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-ts",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de e-commerce em TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
